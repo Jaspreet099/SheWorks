@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SheWorks</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+
+    <nav class=" px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <a href="#" class="flex items-center">
+                <img src="./Images/Logo.png" class="h-6 mr-3 sm:h-9" alt="SheWorks Logo">
+            </a>
+            <div class="flex md:order-2">
+
+                <!-- <button type="button" class="shareButton  px-5 py-2.5 text-center mr-3 md:mr-0 ">SHARE YOURS</button> -->
+                <a href="" class="shareButton mr-3 md:mr-0">SHARE YOURS</a>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="resbtn inline-flex items-center p-2 text-m  rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-orange-600 "
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="listName items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 mt-4   rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
+
+                    <li>
+                        <a href="#home" class="block py-2 pl-3 pr-4  rounded   md:p-0 ">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#mission" class="block py-2 pl-3 pr-4  rounded   md:p-0 ">MISSION</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4  rounded   md:p-0 ">RESOURCES</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 pl-3 pr-4  rounded   md:p-0 ">SUCCESS STORIES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section  -->
+    <section class="hero mt-20 " id="home">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-9">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl dark:text-white">
+                    <span> To the women </span> who are changing everything</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From
+                    checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
+                    payment stack.</p>
+
+                <a href="#"
+                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    Button hai yaha
+                </a>
+            </div>
+            <div class="heroimg w-max ">
+                <img src="./Images/heroimg.png" alt="mockup">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MISSION -->
+
+
+    <div class="mission text-center" id="mission">
+    <p class="HeadTitle text-center pt-20">Our Mission</p>
+  
+        <p class="lg:pr-40 lg:pl-40 text-center mb-6 mt-6 lg:mb-8  text-justify sm: pl-6 pr-6 ">Our mission is to provide a platform to empower and advance women in the workplace. We strive to create an
+            environment of inclusivity and equality, so that women can reach their full potential. <br><br>
+    
+            We provide resources and support for women in all stages of their career. From entry-level to experienced
+            professionals, we have the tools to help you succeed. Our website is full of articles, advice, and tips on how
+            to navigate the professional world and make the most of your career. <br><br>
+    
+            We also provide networking opportunities and connect women with mentors and role models in their chosen field.
+            This allows women to build relationships with successful professionals, gain insight into their success, and
+            gain valuable advice on how to progress in their career. <br><br>
+    
+            Our goal is to create a supportive community of women, who can come together to share their experiences and
+            learn from one another.</p>
+
+            
+    </div>
+    
+
+
+</body>
+
+</html>
