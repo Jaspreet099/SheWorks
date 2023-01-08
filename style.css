@@ -33,75 +33,119 @@ nav .listName .block:hover {
     border-radius: 4px;
 }
 
-.shareButton:hover{
-    filter:  drop-shadow(0px 12px 40px rgba(219, 91, 64, 0.35));
+.shareButton:hover {
+    filter: drop-shadow(0px 12px 40px rgba(219, 91, 64, 0.35));
 }
 
-.resbtn{
+.resbtn {
     /* background: #DB5B40; */
-    color: #DB5B40;;
+    color: #DB5B40;
+    ;
 }
 
-.hero h1{
+.hero h1 {
     color: #DB5B40;
-/* font-size: 64px; */
+    /* font-size: 64px; */
 }
-.hero h1 span{
+
+.hero h1 span {
     color: #323C84;
-/* font-size: 64px; */
+    /* font-size: 64px; */
 }
-.heroimg img{
+
+.heroimg img {
     /* width: 329.07px; */
     height: 487.55px;
 }
 
-.HeadTitle{
+.HeadTitle {
     font-weight: 800;
     font-size: 48px;
     line-height: 56px;
     color: #323C84;
 }
 
-.mission{
+.mission {
     font-weight: 500;
-font-size: 20px;
-line-height: 32px;
-color: #323C84;
+    font-size: 20px;
+    line-height: 32px;
+    color: #323C84;
 }
 
-.leaf{
+.leaf {
     position: absolute;
-/* width: 274.34px;
+    /* width: 274.34px;
 height: 354.62px; */
-left: -40px;
-top: 900px;
+    left: -40px;
+    top: 900px;
 }
 
-.cardcolor{
+.cardcolor {
     background: #DB5B40;
-border-radius: 12px;
+    border-radius: 12px;
 }
-.cardcolor:hover{
+
+.cardcolor:hover {
     filter: drop-shadow(-18px -18px 30px rgba(219, 91, 64, 0.3)) drop-shadow(18px 18px 30px rgba(219, 91, 64, 0.3));
     transition: 200ms ease-out;
 }
-.cardcolor h5{
+
+.cardcolor h5 {
     font-weight: 700;
 }
-.cardcolor p{
+
+.cardcolor p {
     font-weight: 500;
     color: #F2F2F2;
 
 }
-.cardcolor .cardbtn{
+
+.cardcolor .cardbtn {
     background-color: #323C84;
     border-radius: 6px;
     font-weight: 700;
     color: #F2F2F2;
     text-align: center;
-text-transform: uppercase;
+    text-transform: uppercase;
 
 }
-.cardcolor .cardbtn:hover{
+
+.cardcolor .cardbtn:hover {
     box-shadow: 0px 14px 40px rgba(50, 60, 132, 0.3);
+}
+
+.mail-card {
+    background-color: #FAC4AE;
+    border-radius: 18px;
+}
+
+.head-text {
+    color: #DB5B40;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+
+    letter-spacing: -0.035em;
+
+}
+
+.head-text span {
+    color: #323C84;
+}
+
+.mail-text h5 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 56px;
+
+    letter-spacing: -0.035em;
+
+}
+
+.mail-text h5 span {
+    font-size: 28px;
+    font-weight: 400;
+}
+.mail-text p {
+    color: #26273B;
 }
