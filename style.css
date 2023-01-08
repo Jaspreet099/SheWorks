@@ -76,3 +76,32 @@ height: 354.62px; */
 left: -40px;
 top: 900px;
 }
+
+.cardcolor{
+    background: #DB5B40;
+border-radius: 12px;
+}
+.cardcolor:hover{
+    filter: drop-shadow(-18px -18px 30px rgba(219, 91, 64, 0.3)) drop-shadow(18px 18px 30px rgba(219, 91, 64, 0.3));
+    transition: 200ms ease-out;
+}
+.cardcolor h5{
+    font-weight: 700;
+}
+.cardcolor p{
+    font-weight: 500;
+    color: #F2F2F2;
+
+}
+.cardcolor .cardbtn{
+    background-color: #323C84;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #F2F2F2;
+    text-align: center;
+text-transform: uppercase;
+
+}
+.cardcolor .cardbtn:hover{
+    box-shadow: 0px 14px 40px rgba(50, 60, 132, 0.3);
+}
